@@ -1,4 +1,4 @@
-group = 'jp.espresso3389.pdf_render'
+group = 'com.khokanuzzman.pdf_render_maintained'
 version = '1.0-SNAPSHOT'
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'jp.espresso3389.pdf_render'
+    namespace 'com.khokanuzzman.pdf_render_maintained'
     compileSdk 36
      
     kotlinOptions {

@@ -60,7 +60,7 @@ class _WebTextureManager {
 
   final _id2states = <int, List<PdfTextureState>>{};
   final _events =
-      const EventChannel('jp.espresso3389.pdf_render/web_texture_events');
+      const EventChannel('com.khokanuzzman.pdf_render_maintained/web_texture_events');
 
   _WebTextureManager._() {
     _events.receiveBroadcastStream().listen((event) {

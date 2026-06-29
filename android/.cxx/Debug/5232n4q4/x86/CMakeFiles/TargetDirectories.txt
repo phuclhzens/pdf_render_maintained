@@ -1,0 +1,3 @@
+/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/.cxx/Debug/5232n4q4/x86/CMakeFiles/bbhelper.dir
+/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/.cxx/Debug/5232n4q4/x86/CMakeFiles/edit_cache.dir
+/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/.cxx/Debug/5232n4q4/x86/CMakeFiles/rebuild_cache.dir

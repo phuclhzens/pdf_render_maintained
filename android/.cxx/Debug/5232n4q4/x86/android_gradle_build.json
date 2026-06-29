@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/hoangty/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/.cxx/Debug/5232n4q4/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/hoangty/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/.cxx/Debug/5232n4q4/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bbhelper::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "bbhelper",
+      "output": "/Users/hoangty/projects_flutter/exo/pdf_render_maintained/android/build/intermediates/cxx/Debug/5232n4q4/obj/x86/libbbhelper.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/hoangty/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/hoangty/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

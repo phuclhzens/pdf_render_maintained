@@ -39,7 +39,7 @@ class PdfRenderWebPlugin {
 
   final _eventStreamController = StreamController<int>();
   final _eventChannel =
-      const PluginEventChannel('jp.espresso3389.pdf_render/web_texture_events');
+      const PluginEventChannel('com.khokanuzzman.pdf_render_maintained/web_texture_events');
   final _docs = <int, PdfjsDocument>{};
   int _lastDocId = -1;
   final _textures = <int, ui.Image>{};
