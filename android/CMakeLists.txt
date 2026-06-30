@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 3.4.1)
+cmake_minimum_required(VERSION 3.22.1)
 
 add_library(bbhelper SHARED c++/directBufferAndroid.cpp)
 
 target_compile_options(bbhelper PRIVATE -DBUILD_FOR_ANDROID)
+
+target_link_options(bbhelper PRIVATE
+        "-Wl,-z,max-page-size=16384"
+)
